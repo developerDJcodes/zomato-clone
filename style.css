@@ -9,7 +9,7 @@ body {
   height: 100%;
 }
 
-.first-section-sty {
+.hero-section {
   width: 100%;
   height: 70%;
   background-image: url(./asset/background.avif);
@@ -62,7 +62,7 @@ body {
 .zomatologo-img-sty{
   width:100%;
   max-width: 300px;
-    margin-bottom: 40px;
+    margin:20px 0px
 }
 .second-container h1{
   color:white;
@@ -76,4 +76,27 @@ margin-bottom: 30px;
 }
 .input-sty{
    padding: 20px 70px;
+}
+/* second section */
+.second-section{
+   padding-top: 50px;
+}
+.container-sty{
+   display: flex;
+   justify-content: center;
+   column-gap: 30px;
+   position: relative;
+  
+}
+
+.places-img-sty{
+  width: 100%;
+  max-width: 350px;
+  height:50%;
+  
+}
+.img-content{
+  position: absolute;
+  top: 200px;
+  background-color: white;
 }
